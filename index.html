@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webfolder</title>
-    <link rel="stylesheet" href="./projectJs.html">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./projectJs.css">
 </head>
 <body>
     <div class="container">
@@ -23,13 +23,28 @@
             <div class="btn">
                 <div class="btn-1">
                     <img src="./images/favicon.png" />
-                    <a href="projectJs.html">Sign up</a>
+                    <a href="index.html">Sign up </a>
                 </div>
             </div>
           
             <div class="or">OR</div>
             <form id="label">
                 <div class="title">Get Started</div>
+                <!-- User Name input -->
+                <div class="">
+                    <label for="username">UserName</label>
+                    <i class="fas fa-user"></i>
+                    <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Joy Emeka"
+                    />
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="fas fa-check-circle success-icon"></i>
+    
+                    <div class="error"></div>
+                </div>
                 <!-- Email input -->
                 <div>
                     <label for="email">Email</label>
@@ -83,9 +98,9 @@
                <br> designed by <span>Eddyson</span></h1>
         </div>
     </div>
-   
+       
+   <script src="./projectJs.js"></script>
    
 
 </body>
-<script src="./projectjs.js"></script>
 </html>
